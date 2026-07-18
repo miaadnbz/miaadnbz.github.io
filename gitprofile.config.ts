@@ -146,8 +146,24 @@ const CONFIG = {
     ],
   },
 
-  footer: '© 2026 Miaad Nabizadeh.',
-
+footer: `© 2026 Miaad Nabizadeh · Built with
+  <a
+    class="text-primary"
+    href="https://github.com/arifszn/gitprofile"
+    target="_blank"
+    rel="noreferrer"
+  >
+    GitProfile
+  </a>
+  by
+  <a
+    class="text-primary"
+    href="https://github.com/arifszn"
+    target="_blank"
+    rel="noreferrer"
+  >
+    Ariful Alam
+  </a>`,
   enablePWA: true,
 };
 
