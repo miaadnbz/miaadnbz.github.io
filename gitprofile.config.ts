@@ -35,10 +35,38 @@ const CONFIG = {
 
     // Keep this empty until you have non-GitHub projects
     // that you want to present separately.
-    external: {
-      header: 'Additional Projects',
-      projects: [],
+   external: {
+  header: 'Kaggle Analytics Notebooks',
+
+  projects: [
+    {
+      title: 'E-commerce Funnel Analysis',
+      description:
+        'Analyzed customer progression through key conversion stages, identified major drop-off points, and translated funnel behaviour into recommendations for improving conversion performance.',
+      imageUrl: '/projects/ecommerce-funnel-analysis.png',
+      link:
+        'https://www.kaggle.com/code/miaadnabizadeh/e-commerce-funnel-analysis',
     },
+
+    {
+      title: 'A/B Testing Evaluation on Web Conversion',
+      description:
+        'Evaluated a web experiment using statistical hypothesis testing, assessed whether the observed conversion difference was significant, and communicated a practical business recommendation.',
+      imageUrl: '/projects/ab-testing-web-conversion.png',
+      link:
+        'https://www.kaggle.com/code/miaadnabizadeh/a-b-testing-evaluation-on-web-conversion',
+    },
+
+    {
+      title: 'Customer Segmentation with RFM & SQL',
+      description:
+        'Used SQL and RFM analysis to segment customers by recency, frequency, and monetary value, creating actionable groups for retention, reactivation, and CRM campaigns.',
+      imageUrl: '/projects/rfm-customer-segmentation.png',
+      link:
+        'https://www.kaggle.com/code/miaadnabizadeh/customer-segmentation-rfm-analysis-with-sql',
+    },
+  ],
+},
   },
 
   seo: {
