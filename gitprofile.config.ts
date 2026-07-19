@@ -93,11 +93,8 @@ const CONFIG = {
     dev: '',
     stackoverflow: '',
     discord: '',
-    telegram: '',
-
-    // GitProfile has no dedicated Kaggle property,
-    // so the general website link will point to Kaggle.
-    website: 'https://www.kaggle.com/miaadnabizadeh',
+    telegram: '',  
+    website: 'miaadnbz.github.io',
 
     phone: '',
     email: '',
