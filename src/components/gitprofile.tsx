@@ -18,6 +18,7 @@ import { BG_COLOR } from '../constants';
 import AvatarCard from './avatar-card';
 import { Profile } from '../interfaces/profile';
 import DetailsCard from './details-card';
+import AboutCard from './about-card';
 import SkillCard from './skill-card';
 import ExperienceCard from './experience-card';
 import EducationCard from './education-card';
@@ -239,6 +240,8 @@ const GitProfile = ({ config }: { config: Config }) => {
               </div>
               <div className="lg:col-span-2 col-span-1">
                 <div className="grid grid-cols-1 gap-6">
+                  <AboutCard />
+                  
                   {sanitizedConfig.projects.github.display && (
                     <GithubProjectCard
                       header={sanitizedConfig.projects.github.header}
