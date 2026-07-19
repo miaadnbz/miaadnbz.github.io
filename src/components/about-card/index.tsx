@@ -2,21 +2,19 @@ import ABOUT from '../../data/about';
 
 const AboutCard = () => {
   return (
-    <section className="card shadow-lg card-sm bg-base-100">
-      <div className="card-body">
-        <div className="mx-3">
-          <h2 className="card-title">
-            <span className="text-base-content opacity-70">
-              {ABOUT.title}
-            </span>
+    <section className="col-span-1 lg:col-span-2 card bg-base-200 shadow-xl border border-base-300 w-full">
+      <div className="card-body p-8">
+        <div className="mb-5">
+          <h2 className="text-base sm:text-lg font-bold text-base-content">
+            {ABOUT.title}
           </h2>
         </div>
 
-        <div className="px-3 pb-3 space-y-4">
+        <div className="space-y-4">
           {ABOUT.paragraphs.map((paragraph) => (
             <p
               key={paragraph}
-              className="text-base-content opacity-80 leading-relaxed"
+              className="text-sm text-base-content/80 leading-relaxed"
             >
               {paragraph}
             </p>
